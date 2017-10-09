@@ -1,0 +1,56 @@
+{
+  "name": "tab-align",
+  "version": "0.0.0",
+  "description": "Align text with whitespaces",
+  "keywords": [
+    "tab-align",
+    "npm",
+    "tab",
+    "tabs",
+    "align",
+    "alignment",
+    "text",
+    "position"
+  ],
+  "homepage": "https://github.com/motss/tab-align",
+  "license": "MIT",
+  "author": "Rong Sen Ng <wes.ngrongsen@gmail.com>",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:motss/tab-align.git"
+  },
+  "scripts": {
+    "check": "npm run lint && npm run nsp",
+    "lint": "eslint ./src",
+    "nsp": "nsp check",
+    "build": "cross-env NODE_ENV=production gulp",
+    "gulp": "gulp",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-minify": "^0.2.0",
+    "cross-env": "^5.0.5",
+    "del": "^3.0.0",
+    "eslint": "^4.4.1",
+    "eslint-config-zumata": "^0.6.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-typescript": "^3.2.2",
+    "nsp": "^2.7.0",
+    "typescript": "^2.5.3"
+  },
+  "engines": {
+    "node": ">= 6.9.1",
+    "npm": ">= 3.10.8"
+  },
+  "private": true
+}
