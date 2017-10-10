@@ -66,9 +66,7 @@ console.log(alignText('Today\'s title'));
 
 ## License
 
-[MIT License][mit-license-url] © Rong Sen Ng
-
-[mit-license-url]: http://motss.mit-license.org/
+[MIT License](http://motss.mit-license.org/) © Rong Sen Ng
 
 [node-js-url]: https://nodejs.org
 [npm-url]: https://www.npmjs.com
