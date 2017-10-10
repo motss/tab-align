@@ -24,7 +24,7 @@
     "check": "npm run lint && npm run nsp",
     "lint": "eslint ./src",
     "nsp": "nsp check",
-    "build": "cross-env NODE_ENV=production gulp",
+    "build": "cross-env NODE_ENV=production gulp build",
     "gulp": "gulp",
     "test": "npm run check && gulp build && ava"
   },
